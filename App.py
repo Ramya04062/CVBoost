@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from PIL import Image
 import google.generativeai as genai
 from pdf2image import convert_from_path
-from fpdf import FPDF
 import pytesseract
 import pdfplumber
 from sklearn.feature_extraction.text import CountVectorizer
